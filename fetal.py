@@ -12,7 +12,7 @@ import seaborn as sns
 # Step 2: Load Dataset
 df = pd.read_csv("fetal_health.csv")  # dataset
 
-# Step 3: Features आणि Labels
+# Step 3: Features & Labels
 X = df.drop("fetal_health", axis=1)
 y = df["fetal_health"]
 
